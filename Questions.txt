@@ -1,0 +1,33 @@
+8. A class is a blueprint in java where an object is created and an object in java is something that has is own property and behavior.
+9. A constructor is created in order to initialize the object and the two types of constructors are Default and Parametrized.
+10. class Office{ 
+ Office()
+}
+11. The implements keyword allows you to access multiple interface classes and the keyword is similar to extends
+12. The three places you use the keyword final is final variable, final method and final class
+13. The four concepts of object-oriented programming is Inheritance, Abstraction, Encapsulation and Polymorphism
+14. The first thing that happens when a class is instantiated is that it will create an object that creates an instance for the class
+15. When a method is overloaded it happens within the same class and it cannot have the same parameters
+16. Abstract classes can contain both abstract methods and concrete methods. Interface classes can only contain abstract methods.
+17. The void keyword means that a method should not have a return value and is used to specify an expression that has to be evaluated.
+18. Overloading means that a method with the same name can be called upon multiple times, but must have different parameters
+19. You cannot override a static method.
+21. Access modifiers are used to specify different levels of access for classes, variable methods, and constructor.
+ There are four different access modifiers Default, Public, Private, Protected.
+ Local Variables are declared within a method, constructor, or a block and destroyed once it exits.Instance Variables are declared within a class, but outside a method and can be referenced by multiple methods.
+22. A constructor has to be the same name as the class, but a method does not. A method has a return type and a constructor does not. You can call a method multiple times and a constructor is called when an object is created.
+this() is used to call the current class constructor and super() is used to call the base or parent class constructor.
+23. Method overloading is when you use the same name for a method multiple times, but with different parameters. Example:
+add(int, int)
+add(int, int, int)
+Method overriding is when you create method in a child class which is already present in the parent class. However the child class changes the method to its own application.
+Example
+class person{ 
+public void sleep(){
+System.out.println(Person is sleeping)}}
+class steve extends person{
+public void sleep(){
+System.out.println(Steve is sleeping)}
+ public static void main( String args[]){
+steve s= new steve()
+s.sleep}}
