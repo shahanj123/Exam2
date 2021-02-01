@@ -3,6 +3,7 @@ package javaleads.lesson2;
 public class Car extends Vehicle{
 	private int engineCount;
 	public void printVehicleDetails(String details) {
+		super.printVehicleDetails
 		System.out.println("This vehicle is a car");
 	}
 	
